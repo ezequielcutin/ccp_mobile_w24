@@ -70,6 +70,7 @@ a[href="#main-content"]:focus {
 
 .img1{
     grid-column: 1/2;
+    grid-row:1/2;
 }
 
 .img2{
@@ -108,6 +109,8 @@ h2{
 
 h3{
     text-align:center;
+    font-weight:bold;
+    padding-bottom:5px;
     padding-top:20px;
 }
 
@@ -117,4 +120,8 @@ h3{
     margin-right: auto;
     padding-bottom:20px;
     /* width: 50%; */
+}
+
+.list-center li{
+    text-align: center;
 }
