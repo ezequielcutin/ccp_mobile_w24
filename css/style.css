@@ -145,3 +145,10 @@ h3{
 }
 
 
+/* Reduced motion query for users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+    .img4 {
+      display: none; /* This will hide the video from the page */
+    }
+  }
+
