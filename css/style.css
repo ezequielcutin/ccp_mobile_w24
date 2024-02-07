@@ -55,7 +55,7 @@ a[href="#main-content"] {
     left: -999px;
     background-color: #000;
     color: #fff;
-    padding: 8px;
+    padding-top: 25px;
 }
 
 a[href="#main-content"]:focus {
