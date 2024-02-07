@@ -66,7 +66,7 @@ a[href="#main-content"]:focus {
 .main-grid {
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /* gap: 20px; */
     margin: 0 auto;
     align-items: center;
@@ -79,7 +79,7 @@ a[href="#main-content"]:focus {
 .main-grid > img,video{
     padding: 20px;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     margin:auto;
 }
 
@@ -132,11 +132,12 @@ h3{
 }
 
 .main-picture{
-    display: block;
+    display:inline-flex;
     margin-left: auto;
     margin-right: auto;
     padding-bottom:20px;
-    /* width: 50%; */
+    /* position:center; */
+    width: 50%;
 }
 
 .list-center li{
