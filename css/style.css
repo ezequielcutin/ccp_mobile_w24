@@ -10,7 +10,11 @@ body,p {
 /* Navigation styling */
 nav {
     background-color: #8b1515; /* Dark red background */
-    padding: 10px 0;
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0;
+    width: 100%;    /* Full width */
+    z-index: 1000; 
 }
 
 nav ul {
@@ -30,15 +34,18 @@ nav ul li a {
     color: white;
     padding: 10px 15px;
     display: block;
+    /* justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center; */
 }
 
 /* Active page link styling */
-nav ul li a.active,
-nav ul li a:hover {
+nav ul li a.active{
     background-color: #580e0e; /* Slightly darker red */
     color: #fff;
     font-weight: bold; /* Making text bold */
-    font-size: 1.5em; /* Slightly larger font size */
+    font-size: 1.2em; /* Slightly larger font size */
     border-bottom: 2px solid rgba(255, 170, 0, 0.873); /* Adding an orange bottom border for additional emphasis */
 }
 
@@ -71,7 +78,9 @@ a[href="#main-content"]:focus {
 
 .main-grid > img,video{
     padding: 20px;
-    width: 350px;
+    width: 100%;
+    max-width: 400px;
+    margin:auto;
 }
 
 /* .img1{
@@ -101,7 +110,9 @@ img {
 h1{
     font-size: 169%;
     font-weight: lighter;
-    padding:20px;
+    /* padding:40px; */
+    padding-top:80px;
+    padding-bottom:40px;
     text-align: center;
 }
 
@@ -131,3 +142,5 @@ h3{
 .list-center li{
     text-align: center;
 }
+
+
